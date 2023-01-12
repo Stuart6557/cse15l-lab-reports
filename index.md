@@ -1,6 +1,8 @@
 # About me
 ## Food related lol
 
+---
+
 I love **baguettes**!
 ![Image](https://www.allrecipes.com/thmb/UXkCdF6ivTC4ax1TCvFhAp1qj8Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7028-french-baguette-ddmfs-1x1-1-2cb019372fd6453e81bbb4d434f05714.jpg)
 
@@ -12,5 +14,18 @@ Some other foods I love:
 * Avocados
 * Chocolate
 * Edamame
-* Baguette crumbs
-* Banana peels
+
+My favorite snacks
+1. Baguette crumbs
+2. Banana peels
+
+---
+
+To summon me, simply shout `Stuart is the best!`
+
+Or type the following into a Google Doc
+```
+Stuart is awesome!
+Stuart is king!
+Baguettes = life!
+```
