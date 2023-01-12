@@ -1,32 +1,47 @@
-# About me
-## Food related lol
+# Week 1 Lab Report: Remote Access
+  
+Hello CSE 15L students! In this blog post, I will guide you through how to log into a course-specific account on `ieng6`.
 
----
+1. Installing Visual Studio Code
 
-I love **baguettes**!
-![Image](https://www.allrecipes.com/thmb/UXkCdF6ivTC4ax1TCvFhAp1qj8Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7028-french-baguette-ddmfs-1x1-1-2cb019372fd6453e81bbb4d434f05714.jpg)
+The first step is to install VSCode on your computer. You can do this by going to [https://code.visualstudio.com/](https://code.visualstudio.com/) and clicking Download in the top right corner. Make sure you select the correct version for your operating system.
 
-I also love bananas! (*Cuz I am a minion lol*)
-> Me want banana
+Open VSCode once it's downloaded, and you should see something like this
+![Image](VSCode.png)
 
-![Image](https://i.pinimg.com/originals/e2/17/1d/e2171db7e4b7240724be6485e37af193.jpg)
+2. Remotely Connecting
 
-Some other foods I love:
-* Avocados
-* Chocolate
-* Edamame
+This section is a walk-through of using VSCode/terminal to connect to a remote computer in the CSE basement over the Internet
 
-My favorite snacks
-1. Baguette crumbs
-2. Banana peels
+For Windows users only: install `git` for Windows [here](https://gitforwindows.org/) then follow [this tutorial](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to use Bash on Windows
 
----
-
-To summon me, simply shout `Stuart is the best!`
-
-Or type the following into a Google Doc
+Open a VSCode terminal (Ctrl or Command + `, or Terminal → New Terminal through the menu) and type in the following command: 
 ```
-Stuart is awesome!
-Stuart is king!
-Baguettes = life!
+$ ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
+**Note:** The `$` is just a convention and isn't actually part of the command
+
+Since this is your first time connecting to this server, it should give you the following message:
+```
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+Enter `yes`, then enter your password, and you should see something like this:
+![image](remotelyConnecting.png)
+
+3. Trying Some Commands
+
+Now you are ready to run some commands! Here are some usefull ones you can try:
+* `cd`
+* `ls`
+* `pwd`
+* `mkdir`
+* `cp`
+
+Here are some examples:
+![image](runningCommands.png)
+  
+---
+  
+You are now fully set up. Good luck on the rest of your 15L journey!
