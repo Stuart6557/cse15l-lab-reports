@@ -47,7 +47,7 @@ Now you are ready to run some commands! Here are some usefull ones you can try:
 
 Here are some examples:
 ![image](runningCommands.png)
+
 <br>
----
-<br>
+
 You are now fully set up. Good luck on the rest of your 15L journey!
