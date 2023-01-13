@@ -2,12 +2,16 @@
   
 Hello CSE 15L students! In this blog post, I will guide you through how to log into a course-specific account on `ieng6`.
 
+<br>
+
 **Step 1:** Installing Visual Studio Code
 
 The first step is to install VSCode on your computer. You can do this by going to [https://code.visualstudio.com/](https://code.visualstudio.com/) and clicking Download in the top right corner. Make sure you select the correct version for your operating system.
 
 Open VSCode once it's downloaded, and you should see something like this
 ![Image](VSCode.png)
+
+<br>
 
 **Step 2:** Remotely Connecting
 
@@ -30,6 +34,8 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 Enter `yes`, then enter your password, and you should see something like this:
 ![image](remotelyConnecting.png)
 
+<br>
+
 **Step 3:** Trying Some Commands
 
 Now you are ready to run some commands! Here are some usefull ones you can try:
@@ -41,7 +47,7 @@ Now you are ready to run some commands! Here are some usefull ones you can try:
 
 Here are some examples:
 ![image](runningCommands.png)
-  
+<br>
 ---
-  
+<br>
 You are now fully set up. Good luck on the rest of your 15L journey!
