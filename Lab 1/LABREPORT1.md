@@ -15,7 +15,7 @@ Open VSCode once it's downloaded, and you should see something like this
 
 **Step 2:** Remotely Connecting
 
-This section is a walk-through of using VSCode/terminal to connect to a remote computer in the CSE basement over the Internet
+This section is a walk-through of using VSCode/terminal to connect to a remote computer in the CSE basement over the Internet.
 
 For Windows users only: install `git` for Windows [here](https://gitforwindows.org/) then follow [this tutorial](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to use Bash on Windows
 
@@ -38,7 +38,7 @@ Enter `yes`, then enter your password, and you should see something like this:
 
 **Step 3:** Trying Some Commands
 
-Now you are ready to run some commands! Here are some usefull ones you can try:
+Now you are ready to run some commands! Here are some useful ones you can try:
 * `cd`
 * `ls`
 * `pwd`
