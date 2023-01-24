@@ -40,13 +40,11 @@ Enter `yes`, then enter your password, and you should see something like this:
 
 Now you are ready to run some commands! Here are some useful ones you can try:
 
-```
-cd
-ls
-pwd
-mkdir
-cp
-```
+* `cd`
+* `ls`
+* `pwd`
+* `mkdir`
+* `cp`
 
 Here are some examples:
 ![image](runningCommands.png)
