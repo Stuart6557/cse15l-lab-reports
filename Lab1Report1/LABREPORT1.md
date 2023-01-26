@@ -51,7 +51,7 @@ Here are some examples:
 
 * The `pwd` command prints the working directory.
 * The `cat` command prints the content from one or more files.
-* The `ls` command lists files and folders. You can add arguments like `-a`, which will list all the hidden ones as well.
+* The `ls` command lists files and subdirectories in the current directory. You can add arguments like `-a`, which will list all the hidden ones as well.
 
 <br>
 
