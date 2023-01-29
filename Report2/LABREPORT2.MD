@@ -74,4 +74,4 @@ Changing this line fixes the issue because initially, the code incremented index
 
 ## Part 3
 
-* In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
+My most important takeaway is the importance of testing your code thoroughly. It's not always obvious that your program has a bug because a bug won't result in an error in every single test case. Sometimes you may write a few test cases that all pass, but there could be a few edge cases that you didn't consider.
