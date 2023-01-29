@@ -28,21 +28,19 @@ Here are two examples of using `/add-message`
 
 In lab 3, there was a bug in the `merge` method in ListExamples.java.
 
-<br>
-
 This is an example of a failure-inducing input for the buggy program
 ```
 @Test
-    public void testMerge() {
-        String[] input1Array = {"a", "a", "c"};
-        List<String> input1 = Arrays.asList(input1Array);
-        String[] input2Array = {"d", "z", "z"};
-        List<String> input2 = Arrays.asList(input2Array);
-        String[] expectedArray = {"a", "a", "c", "d", "z", "z"};
-        List<String> expected = Arrays.asList(expectedArray);
-        List<String> actual = ListExamples.merge(input1, input2);
-        assertEquals(expected, actual);
-    }
+public void testMerge() {
+    String[] input1Array = {"a", "a", "c"};
+    List<String> input1 = Arrays.asList(input1Array);
+    String[] input2Array = {"d", "z", "z"};
+    List<String> input2 = Arrays.asList(input2Array);
+    String[] expectedArray = {"a", "a", "c", "d", "z", "z"};
+    List<String> expected = Arrays.asList(expectedArray);
+    List<String> actual = ListExamples.merge(input1, input2);
+    assertEquals(expected, actual);
+}
 ```
 Here is the symptom of this failed test
 ![failedTestBug](failedTestBug.png)
