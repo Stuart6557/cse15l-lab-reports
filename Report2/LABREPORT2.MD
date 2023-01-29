@@ -2,8 +2,6 @@
 
 ## Part 1
 
-<br>
-
 The following is a screenshot of the code for my `StringServer`
 
 ![StringServerCode](StringServerCode.png)
@@ -23,6 +21,8 @@ Here are two examples of using `/add-message`
 
 * The method `handleRequest` is called with the argument `new URI("localhost:4000/add-message?s=How%20are%20you%20")`
 * The String `s` changed from `"\nHello"` to `"\nHello\nHow are you"` after this request
+
+<br>
 
 ## Part 2
 
@@ -60,17 +60,23 @@ public void testMergeEmpty() {
     assertEquals(expected, actual);
 }
 ```
-Here is the symptom of this failed test
+Here is the output of running this test
 ![successTestBug](successTestBug.png)
 
 <br>
 
 In the last while loop of the `merge` method, there was a line that said
-```index1 += 1;```
+```
+index1 += 1;
+```
 instead of
-```index2 += 1;```
+```
+index2 += 1;
+```
 
 Changing this line fixes the issue because initially, the code incremented index1 instead of index2. This caused the while loop to be always true, resulting in an infinite loop. 
+
+<br>
 
 ## Part 3
 
