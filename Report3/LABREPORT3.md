@@ -6,14 +6,15 @@ The following are 4 interesting command-line options for the `grep` command:
 * `-i` ignores case distinctions so that characters that differ only in case match each other.
 * `-w` select only those lines containing matches that form  whole words.
 * `-x` select only  those  matches  that  exactly match the whole line.
-    * Notes: If both `-w` and `-x` are used, then `-x` takes precedence
+    * Note: If both `-w` and `-x` are used, then `-x` takes precedence
 * `-c` suppress normal output; instead print a count  of  matching lines  for  each  input  file.
 
 I found all of these on the [grep man page](https://linuxcommand.org/lc3_man_pages/grep1.html) on LinuxCommand.org
 
 Here are some examples of using these command-line options on files and directories from `./written_2`:
 
-* `-i`
+### `-i`
+
 ```
 $ grep -ilr "lucayans" .
 ./travel_guides/berlitz2/Bahamas-History.txt
@@ -52,7 +53,8 @@ The `-i` here is important because without it, this command would return nothing
 
 <br>
 
-* `-w`
+### `-w`
+
 ```
 $ grep -lrw "Lucayan" .
 ./travel_guides/berlitz2/Bahamas-WhereToGo.txt
@@ -76,7 +78,8 @@ The `-w` is useful in this case because it allows this command to not return the
 
 <br>
 
-* `-x`
+### `-x`
+
 ```
 $ grep -lrx "baffled, bewildered parents" .
 ./non-fiction/OUP/Berk/ch1.txt
@@ -90,7 +93,8 @@ There is no output here. This is important because it shows that `-x` has preced
 
 <br>
 
-* `-c`
+### `-c`
+
 ```
 $ grep -rc "baffled, bewildered parents" non-fiction/OUP/Berk/        
 non-fiction/OUP/Berk/CH4.txt:0
