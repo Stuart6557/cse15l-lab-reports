@@ -1,4 +1,5 @@
-# grep command
+# Week 5 Lab Report: Researching Commands
+## grep command
 
 The following are 4 interesting command-line options for the `grep` command:
 
