@@ -13,7 +13,7 @@ I found all of these on the [grep man page](https://linuxcommand.org/lc3_man_pag
 
 Here are some examples of using these command-line options on files and directories from `./written_2`:
 
-### `-i`
+#### `-i`
 
 ```
 $ grep -ilr "lucayans" .
@@ -53,7 +53,7 @@ The `-i` here is important because without it, this command would return nothing
 
 <br>
 
-### `-w`
+#### `-w`
 
 ```
 $ grep -lrw "Lucayan" .
@@ -78,7 +78,7 @@ The `-w` is useful in this case because it allows this command to not return the
 
 <br>
 
-### `-x`
+#### `-x`
 
 ```
 $ grep -lrx "baffled, bewildered parents" .
@@ -93,7 +93,7 @@ There is no output here. This is important because it shows that `-x` has preced
 
 <br>
 
-### `-c`
+#### `-c`
 
 ```
 $ grep -rc "baffled, bewildered parents" non-fiction/OUP/Berk/        
