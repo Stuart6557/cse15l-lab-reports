@@ -20,4 +20,4 @@ Week 5
 * [Lab report 3](Report3/LABREPORT3.md) - Researching Commands
 
 Week 6 ([list-examples-grader](https://github.com/ucsd-cse15l-w23/list-examples-grader))
-* Run `bash grade.h $GITHUBLINK` to run Grading Script
+* Run `bash grade.h <student-github-url>` to run Grading Script
