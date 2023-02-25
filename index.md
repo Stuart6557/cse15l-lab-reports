@@ -21,3 +21,7 @@ Week 5
 
 Week 6 ([list-examples-grader](https://github.com/ucsd-cse15l-w23/list-examples-grader))
 * Run `bash grade.h <student-github-url>` to run Grading Script
+
+Week 7 ([lab7](https://github.com/ucsd-cse15l-w23/lab7))
+* Run `bash challenge.sh>` to complete the challenge
+* [Lab report 4](Report4/LABREPORT4.md) - Competition Tasks
