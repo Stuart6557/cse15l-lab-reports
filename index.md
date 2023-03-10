@@ -38,5 +38,4 @@ Week 8
 
 Week 9
 * Ranterfoot [group document copy](https://docs.google.com/document/d/1J-7HOr4nsmJoAlCLHYsrPQ11xXh3FaGDFOOQuZcc_Pw/edit?usp=sharing)
-* 
 * [Lab report 5](Report5/LABREPORT5.MD)

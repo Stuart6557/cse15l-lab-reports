@@ -1,11 +1,11 @@
-# Week 9 Lab Report: Revisiting Commands
+# Week 9 Lab Report: Researching More Commands
 ## ls command
 
 The following are 4 interesting command-line options for the `ls` command:
 
 * `-m` fill width with a comma separated list of entries
 * `-l` use a long listing format
-* `-a` do not ignore entries starting with `.`
+* `-a` do not ignore entries starting with `.` (hidden files)
 * `-t` sort by time (newest first)
 
 I found all of these on the [ls man page](https://man7.org/linux/man-pages/man1/ls.1.html) on man7.org
@@ -60,7 +60,7 @@ $ cd ../java
 $ ls -a
 .		..		.gitignore	Code.class	Code.java
 ```
-I added a `.gitignore` file to the `java` directory. The `-a` is important here because otherwise the `.gitignore` file wouldn't show up.
+I added a `.gitignore` file to the `java` directory. The `-a` is important here because otherwise the `.gitignore` file wouldn't be shown.
 
 ```
 $ ls -al
