@@ -19,14 +19,14 @@ Here are some examples of using these command-line options on files and director
 $ ls -m
 java, tests, textfiles
 ```
-This ls command separates the 3 subdirectories with a comma as opposted to displaying them in columns.
+This `ls -m` command separates the 3 subdirectories with a comma as opposed to displaying them in columns.
 
 ```
 $ cd java
 $ ls -m
 Code.class, Code.java
 ```
-The `-m` here separates the 2 files with a comma.
+Like above, the `-m` here separates the 2 files with a comma.
 
 <br>
 
